@@ -314,7 +314,7 @@ export default function Home() {
                             color="gray"
                             className="font-normal"
                           >
-                            You&apos;ll be able to login without password for 24
+                            You will be able to login without password for 24
                             hours.
                           </Typography>
                         </div>
@@ -370,7 +370,9 @@ export default function Home() {
                             color="white"
                             className="flex items-center gap-3"
                           >
-                            <img
+                            <Image
+                            width={50}
+                            height={50}
                               src="https://www.material-tailwind.com/icons/metamask.svg"
                               alt="metamask"
                               className="h-6 w-6"
@@ -396,7 +398,9 @@ export default function Home() {
                             color="blue-gray"
                             className="flex items-center gap-3"
                           >
-                            <img
+                            <Image
+                            width={50}
+                            height={50}
                               alt="metamask"
                               src="https://www.material-tailwind.com/icons/google.svg"
                               className="h-6 w-6"
@@ -424,7 +428,9 @@ export default function Home() {
                           >
                             Sign in with Twitter
                             <span className="absolute right-0 grid h-full w-12 place-items-center bg-light-blue-600 transition-colors group-hover:bg-light-blue-700">
-                              <img
+                              <Image
+                              width={50}
+                              height={50}
                                 src="https://www.material-tailwind.com/icons/twitter.svg"
                                 alt="metamask"
                                 className="h-6 w-6"
@@ -446,7 +452,7 @@ export default function Home() {
                   variant="h4"
                   color="blue-gray"
                 >
-                  Let's make a Transaction
+                  Let us make a Transaction
                 </Typography>
                 <form className="mt-2 flex flex-col gap-4">
                   <div className="my-2">
@@ -588,7 +594,9 @@ export default function Home() {
             </Typography>
             <ul className="mt-1 -ml-2 flex flex-col gap-1">
               <MenuItem className="flex items-center gap-3">
-                <img
+                <Image
+                width={50}
+                height={50}
                   src="https://www.material-tailwind.com/icons/metamask.svg"
                   alt="metamast"
                   className="h-6 w-6"
@@ -598,7 +606,9 @@ export default function Home() {
                 </Typography>
               </MenuItem>
               <MenuItem className="flex items-center gap-3">
-                <img
+                <Image
+                width={50}
+                height={50}
                   src="https://www.material-tailwind.com/icons/metamask.svg"
                   alt="metamast"
                   className="h-6 w-6 rounded-md"
@@ -608,7 +618,9 @@ export default function Home() {
                 </Typography>
               </MenuItem>
               <MenuItem className="flex items-center gap-3">
-                <img
+                <Image
+                width={50}
+                height={50}
                   src="https://www.material-tailwind.com/icons/metamask.svg"
                   alt="metamast"
                   className="h-6 w-6 rounded-md"
@@ -629,7 +641,9 @@ export default function Home() {
             </Typography>
             <ul className="mt-1 -ml-2.5 flex flex-col gap-1">
               <MenuItem className="flex items-center gap-3">
-                <img
+                <Image
+                width={50}
+                height={50}
                   src="https://www.material-tailwind.com/icons/metamask.svg"
                   alt="metamast"
                   className="h-7 w-7 rounded-md border border-blue-gray-50"
@@ -639,7 +653,9 @@ export default function Home() {
                 </Typography>
               </MenuItem>
               <MenuItem className="flex items-center gap-3">
-                <img
+                <Image
+                width={50}
+                height={50}
                   src="https://www.material-tailwind.com/icons/metamask.svg"
                   alt="metamast"
                   className="h-7 w-7 rounded-md border border-blue-gray-50"
