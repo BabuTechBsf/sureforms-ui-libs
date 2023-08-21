@@ -1,7 +1,6 @@
 import Image from "next/image";
 import { useState } from "react";
 import { Inter } from "next/font/google";
-// import { useCountries } from "use-react-countries";
 import {
   Button,
   Typography,
